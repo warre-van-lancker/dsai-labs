@@ -166,7 +166,9 @@ $$\frac{{(o - e)}^2}{e}$$
 
 The sum of all these values is notated:
 
+{% raw %}
 $$\chi^2 = \sum_i \frac{{(o_i - e_i)}^2}{e_i} \approx 4.255$$
+{% endraw %}
 
 - $\chi$ is the Greek letter *chi*
 - $o_i$ = number of observations in the $i$'th cell of the contingency
@@ -202,7 +204,9 @@ We need a metric independent of table size!
 
 ## Cramér's V
 
+{% raw %}
 $$V = \sqrt{\frac{\chi^2}{n(k-1)}} = \sqrt{\frac{4.255}{250(2-1)}} \approx 0.130$$
+{% endraw %}
 
 with $n$ the number of observations, $k = \min(numRows, numCols)$
 
@@ -378,7 +382,9 @@ to random sampling errors.
 
 Consider $\chi^{2}$:
 
+{% raw %}
 $$\chi^{2} = \sum_{i=1}^{n} \frac{{(o_{i} - e_{i})}^{2}}{e_{i}}$$
+{% endraw %}
 
 Draw a conclusion based on the value of $\chi^2$:
 
@@ -431,7 +437,9 @@ $\chi^{2}$ measures the degree of conflict with the null hypothesis
 
 - **Step 3.** Calculate the test statistic $\chi^2 = 3.47$
 
+{% raw %}
     $$\chi^{2} = \sum_{i=1}^{n} \frac{(o_{i} - e_{i})^{2}}{e_{i}}$$
+{% endraw %}
 
 - **Step 4.** Determine critical value $g$ or $p$-value
 
@@ -556,7 +564,9 @@ Conclusion: we reject the null hypothesis.
 
 **Standardized Residuals** indicate which classes make the greatest contribution to the value of $\chi^2$.
 
+{% raw %}
 $$r_{i} = \frac{o_{i} - n \pi_{i}}{\sqrt{n \pi_{i}(1-\pi_{i})}}$$
+{% endraw %}
 
 - $r_i \in [-2, 2] \Rightarrow$ "acceptable" values
 - $r_i < -2 \Rightarrow$ underrepresented
