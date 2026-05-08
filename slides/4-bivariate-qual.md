@@ -148,7 +148,9 @@ In each cell: (row total $\times$ column total) / $n$
 
 How far is the observed value $o$ from the expected $e$?
 
+{% raw %}
 $$\frac{{(o - e)}^2}{e}$$
+{% endraw %}
 
 | Survey |    Female |       Male |
 | -----: | --------: | ---------: |
